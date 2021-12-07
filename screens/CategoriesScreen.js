@@ -27,17 +27,6 @@ const CategoriesScreen = (props) => {
     );
   };
   return (
-    // <View style={styles.screen}>
-    //   <Text>The Categories Screen</Text>
-    //   <Button
-    //     title="click me"
-    //     onPress={() => console.log(props.navigation.navigate({routeName:'MealScreen'}))}
-    //   />
-    //   {/* <Button
-    //     title="go to mealDetail"
-    //     onPress={() => console.log(props.navigation.navigate({routeName:'MealDetail'}))}
-    //   /> */}
-    // </View>
     <FlatList
       keyExtractor={(item, index) => item.id}
       data={CATEGORIES}
